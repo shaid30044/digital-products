@@ -108,3 +108,50 @@
     border-radius: 2px;
     cursor: pointer;
 }
+
+/* service style */
+
+.service {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    height: 480px;
+}
+
+.service-title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.box-title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.box-info {
+    width: 200px;
+    padding: 10px;
+    box-shadow: 1px 1px 20px 20px rgb(69, 69, 69);
+    border-radius: 8px;
+}
+
+.box-icon {
+    width: 100px;
+}
+
+.box-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 2px;
+    background-color: rgb(45, 45, 45);
+    color: white;
+    cursor: pointer;
+}
