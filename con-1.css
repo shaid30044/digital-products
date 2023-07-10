@@ -15,7 +15,7 @@
 }
 
 .logo-icon {
-    width: 120px;
+    width: 180px;
 }
 
 .manu {
@@ -65,7 +65,7 @@
     cursor: pointer;
 }
 
-.banner-btn:hover {
+.banner-btn:hover, .about-btn:hover {
     font-weight: bold;
 }
 
@@ -73,3 +73,38 @@
     width: 600px;
 }
 
+/* about style */
+
+.about {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-head {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 40px;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-icon {
+    width: 300px;
+}
+
+.about-title {
+    margin-bottom: 15px;
+}
+
+.about-btn {
+    margin-top: 15px;
+    padding: 10px 26px;
+    background-color: rgb(255, 40, 0);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
