@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav style */
+
+.nav-ber {
+    background-color: rgb(31, 31, 31);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.logo-icon {
+    width: 120px;
+}
+
+.manu {
+    list-style: none;
+    display: flex;
+}
+
+.manu-item {
+    margin-right: 20px;
+    padding-right: 30px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.manu-item:hover {
+    color: tomato;
+}
+
