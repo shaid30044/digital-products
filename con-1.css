@@ -155,3 +155,44 @@
     color: white;
     cursor: pointer;
 }
+
+/* footer style */
+
+.footer {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 100px 200px 5px 200px;
+}
+
+.footer-items {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 100px;
+}
+
+.item-logo {
+    width: 150px;
+    margin-bottom: 5px;
+}
+
+.item-info {
+    width: 300px;
+}
+
+.item-title {
+    padding-bottom: 20px;
+}
+
+.item-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.item-link {
+    padding-bottom: 5px;
+}
+
+.copyright {
+    padding: 10px 0;
+    text-align: center;
+}
